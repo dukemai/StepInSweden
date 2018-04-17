@@ -1,0 +1,64 @@
+.suggestions{
+    width: 500px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    overflow: auto;
+}
+
+.suggestions__title{
+    text-align: center;
+}
+
+.suggestion{
+    padding: 25px 0;
+    border-bottom: 1px solid #DCE5EB;
+}
+
+.suggestionTitle{
+    font-size: 16px;
+    margin: 0 0 7px;
+}
+
+.suggestionDescription{
+    margin: 0;
+    font-size: 14px;
+    color: #8A8A99;
+}
+.suggestionAddress{
+    color: #62628A;
+    font-size: 14px;
+}
+.suggestionLinks{
+    font-size: 14px;
+}
+
+.suggestionLinks a{
+    color: #62628A;
+    display: block;
+}
+.tags{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.tag{
+    display: inline-block;
+    padding: 3px 5px;
+    background: #70D2C7;
+    margin-right: 1px;
+}
+.steps{
+    background: #DCE5EB;
+    padding: 15px 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__title{
+    font-size: 14px;
+    margin: 0 0 7px;
+}
+
+.suggestions__description{
+    font-size: 14px;
+}

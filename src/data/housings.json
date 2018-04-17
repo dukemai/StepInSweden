@@ -1,0 +1,45 @@
+[
+    {
+        "title": "Blocket",
+        "description": "Where you can find offers for renting",
+        "address": "",
+        "link": "https://www.blocket.se/bostad/uthyres/stockholm?f=p&f=c&f=b",
+        "tags": ["Housing"]
+    },
+    {
+        "title": "Qasa",
+        "description": "Where you can find offers for renting",
+        "address": "",
+        "link": "https://en.qasa.se/",
+        "tags": ["Housing"]
+    },
+    {
+        "title": "Facebook group",
+        "description": "Where you can find offers for renting",
+        "address": "",
+        "link": "https://www.facebook.com/groups/106295936616055/",
+        "links": ["https://www.facebook.com/groups/lagenheteristockholm/"],
+        "tags": ["Housing"]
+    },
+    {
+        "title": "Bostad Stockholm",
+        "description": "Where you can queue for first hand apartments",
+        "address": "",
+        "link": "https://bostad.stockholm.se/",
+        "tags": ["Housing", "First hand"]
+    },
+    {
+        "title": "Sollentunahem",
+        "description": "Where you can queue for first hand apartments",
+        "address": "",
+        "link": "http://www.sollentunahem.se/",
+        "tags": ["Housing", "First hand"]
+    },
+    {
+        "title": "Hemnet",
+        "description": "Where you can find apartments for sale",
+        "address": "",
+        "link": "https://www.hemnet.se/",
+        "tags": ["Housing", "First hand", "Buy housing"]
+    }
+]

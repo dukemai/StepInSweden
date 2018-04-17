@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Migration authority",
+        "description": "Where you can find forms and information about residence permissions",
+        "address": "Pyramidvägen 2 A, Solna",
+        "link": "https://www.migrationsverket.se/",
+        "tags": ["General", "Paperwork"]
+    },
+    {
+        "title": "Tax authority",
+        "description": "The first place you should visit when you begin your live in Sweden. Here handles everything related about taxes",
+        "address": "Lindhagensgatan 76, 112 18 Stockholm",
+        "link": "https://www.skatteverket.se/",
+        "tags": ["General", "Paperwork", "Firstday"],
+        "steps": ["Register tax information", "Apply personal ID", "Declare Tax"]
+    },
+    {
+        "title": "Migration authority",
+        "description": "Where you can find forms and information about residence permissions",
+        "address": "Pyramidvägen 2 A, Solna",
+        "link": "https://www.migrationsverket.se/",
+        "tags": ["General", "Paperwork"]
+    }
+]

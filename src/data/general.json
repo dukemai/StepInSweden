@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Solna stad",
+        "description": "Where you can find information about solna like queuing schools in Solna",
+        "address": "",
+        "link": "https://www.solna.se/",
+        "tags": ["General"]
+    },
+    {
+        "title": "Solna stad",
+        "description": "Where you can find information about solna like queuing schools in Solna",
+        "address": "",
+        "link": "https://www.solna.se/",
+        "tags": ["General"]
+    },
+    {
+        "title": "Solna kommun",
+        "description": "Where you can find information about solna like queuing schools in Solna",
+        "address": "",
+        "link": "https://www.solna.se/",
+        "tags": ["General"]
+    },
+    {
+        "title": "Stockholm kommun",
+        "description": "Where you can find information about solna like queuing schools in Stockholm stad",
+        "address": "",
+        "link": "http://www.stockholm.se/",
+        "tags": ["General"]
+    },
+    {
+        "title": "Järfälla kommumn",
+        "description": "Where you can find information about solna like queuing schools in Järfälla",
+        "address": "",
+        "link": "https://www.jarfalla.se/",
+        "tags": ["General"]
+    },
+    {
+        "title": "Sollentuna kommumn",
+        "description": "Where you can find information about solna like queuing schools in Sollentuna",
+        "address": "",
+        "link": "https://www.sollentuna.se/",
+        "tags": ["General"]
+    },
+    {
+        "title": "Nacka kommumn",
+        "description": "Where you can find information about solna like queuing schools in Nacka",
+        "address": "",
+        "link": "https://www.nacka.se/",
+        "tags": ["General"]
+    }
+]

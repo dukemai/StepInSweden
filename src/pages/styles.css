@@ -1,0 +1,13 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.screen{
+    height: 100vh;
+}

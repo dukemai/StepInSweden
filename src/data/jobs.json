@@ -1,0 +1,23 @@
+[
+     {
+        "title": "Jobs offered by arbetsformedlingen",
+        "description": "Arbetsformedlingen is official agency where you can reach for saying your needs about work",
+        "address": "",
+        "link": "https://www.arbetsformedlingen.se/",
+        "tags": ["Job"]
+    },
+    {
+        "title": "Jobs group on facebook",
+        "description": "There are many groups on facebook for finding jobs",
+        "address": "",
+        "link": "https://www.facebook.com/groups/jobbistockholm/",
+        "tags": ["Job"]
+    },
+    {
+        "title": "Jobs in blocket",
+        "description": "Blocket is a diversifed site which contains a lot of departments. Its services vary from selling 2nd products, finding apartments",
+        "address": "",
+        "link": "https://jobb.blocket.se/",
+        "tags": ["Job", "Mobile App"]
+    }
+]
