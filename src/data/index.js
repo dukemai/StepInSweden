@@ -4,7 +4,9 @@ import housings from './housings.json';
 import jobs from './jobs.json';
 import secondHands from './secondHands.json';
 import general from './general.json';
+import workers from './workers.json';
+import firstdays from './firstdays.json';
 
-const suggestionsBank = [...paperworks, ...housings, ...jobs, ...secondHands, ...general];
+const suggestionsBank = [...workers, ...housings, ...jobs, ...secondHands, ...general, ...paperworks];
 
-export { criterias, suggestionsBank };
+export { criterias, suggestionsBank, firstdays };

@@ -30,15 +30,13 @@ export function loadSuggestions() {
         const { criteria } = state;
         const whoFilters = filter(criteria.who.options, { selected: true });
         const whatFilters = filter(criteria.what.options, { selected: true });
-        const firstTimeFilters = filter(criteria.firstTime.options, { selected: true });
         
         const { sources } = state.suggestion;
         const forAll = suggestionsFitForAll(sources, criteria.who.options);
         const forWho = suggestionsFitForSelectedWho(sources, whoFilters);
 
         const filteredSources = filter([...forWho, ...forAll],
-            (suggestion) => (!whatFilters.length || hasValidTag(suggestion, whatFilters)) &&
-                (!firstTimeFilters.length || hasValidTag(suggestion, firstTimeFilters)));
+            (suggestion) => (!whatFilters.length || hasValidTag(suggestion, whatFilters)));
     
         dispatch({
             type: FILTER_SUGGESTIONS,

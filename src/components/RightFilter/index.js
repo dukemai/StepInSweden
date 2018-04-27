@@ -12,11 +12,13 @@ const propTypes = {
     what: PropTypes.shape({}).isRequired,
     firstTime: PropTypes.shape({}).isRequired,
     onFilterChange: PropTypes.func.isRequired,
+    showSuggest: PropTypes.bool,
 };
 const defaultProps = {
+    showSuggest: false,
 };
 
-const RightFilter = ({ who, what, firstTime, onFilterChange }) => (
+const RightFilter = ({ who, what, firstTime, onFilterChange, showSuggest }) => (
     <section className="filters">
         <h2 className="pageTitle text-primary">
             Step into Sweden
@@ -25,6 +27,10 @@ const RightFilter = ({ who, what, firstTime, onFilterChange }) => (
             Select criterias matching to you will help finding more adequate information
         </p>
         <Criteria
+            {...firstTime}
+            onFilterChange={(value) => onFilterChange('firstTime', value)}
+        />
+        <Criteria
             {...who}
             onFilterChange={(value) => onFilterChange('who', value)}
         />
@@ -32,13 +38,13 @@ const RightFilter = ({ who, what, firstTime, onFilterChange }) => (
             {...what}
             onFilterChange={(value) => onFilterChange('what', value)}
         />
-        <Criteria
-            {...firstTime}
-            onFilterChange={(value) => onFilterChange('firstTime', value)}
-        />
-        <div className="filters__button">
-            <button className="suggestionButton">See suggestions</button>
-        </div>
+        {
+            showSuggest && (
+                <div className="filters__button">
+                    <button className="suggestionButton">See suggestions</button>
+                </div>
+            )
+        }
     </section>
 );
 
