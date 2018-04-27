@@ -11,3 +11,12 @@
 .screen{
     height: 100vh;
 }
+
+@media (max-width: 736px) {
+    .screen{
+        flex-direction: column;
+    }
+    .suggestions{
+        width: 100%;
+    }
+}
