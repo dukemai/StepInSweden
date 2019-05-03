@@ -1,0 +1,31 @@
+{
+  "firstTime": {
+    "id": "isthis",
+    "title": "Is this your first days in Sweden?",
+    "options": ["Correct"]
+  },
+  "who": {
+    "id": "who",
+    "title": "Who are you?",
+    "options": ["Student", "Worker", "Investor", "Tourister", "Refugee"]
+  },
+  "what": {
+    "id": "what",
+    "title": "What are you looking for?",
+    "options": [
+      "Shopping",
+      "Job",
+      "Second hand",
+      "General",
+      "Document",
+      "Housing",
+      "Sight seeing",
+      "Bank",
+      "Paperwork",
+      "Supermarket",
+      "Currency Exchange",
+      "Mobile App",
+      "Learning Swedish"
+    ]
+  }
+}

@@ -4,26 +4,19 @@
   "version": "1.0.0",
   "author": "Duc Mai",
   "dependencies": {
-    "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "lodash": "^4.17.5",
-    "react-helmet": "^5.2.0",
-    "react-redux": "^5.0.7",
-    "react-router-dom": "^4.2.2",
-    "react-router-redux": "^4.0.8",
-    "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
+    "@zeit/next-sass": "^1.0.1",
+    "classnames": "^2.2.6",
+    "foundation-sites": "^6.5.3",
+    "next": "^8.1.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "devDependencies": {
     "prettier": "^1.11.1"
